@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#abcdef">
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"	>
+
+        <TextView
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Inserisci numero"
+            android:textSize="25dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/insertNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:text="risultato">
+
+        </TextView>
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:text="">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <GridLayout
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu"
+        android:columnCount="4"
+
+        android:rowCount="4"
+        tools:context=".MainActivity">
+
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black"
+            android:text="@string/_2"
+            android:onClick="base2"/>
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/Button3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/Button4"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/Button5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/Button6"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/Button7"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/Button8"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/black"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/Button9"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            android:text="10" />
+
+        <Button
+            android:id="@+id/Button10"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            android:text="11" />
+
+        <Button
+            android:id="@+id/Button11"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="12" />
+
+        <Button
+            android:id="@+id/Button12"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/black"
+            android:text="13" />
+
+        <Button
+            android:id="@+id/Button13"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:text="14" />
+
+        <Button
+            android:id="@+id/Button14"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="15" />
+
+        <Button
+            android:id="@+id/Button15"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="16" />
+
+        <Button
+            android:id="@+id/ButtonC"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="c" />
+
+    </GridLayout>
+</RelativeLayout>
+
+
