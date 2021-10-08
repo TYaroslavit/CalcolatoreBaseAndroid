@@ -22,7 +22,7 @@
             android:id="@+id/insertNum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:maxLength="8"
             android:inputType="number" />
 
         <TextView
@@ -42,7 +42,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:textSize="30dp"
-            android:text="">
+            android:text="max numero 2.147.483.646">
 
         </TextView>
 
@@ -66,7 +66,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:background="@color/black"
-            android:onClick="base2"
+            android:onClick="DigitPress"
             android:text="@string/_2" />
 
         <Button
@@ -75,7 +75,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
             android:background="@color/black"
-            android:onClick="base3"
+            android:onClick="DigitPress"
             android:text="3" />
 
         <Button
@@ -84,7 +84,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
             android:background="@color/black"
-            android:onClick="base4"
+            android:onClick="DigitPress"
             android:text="4" />
 
         <Button
@@ -94,7 +94,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:background="@color/black"
-            android:onClick="base5"
+            android:onClick="DigitPress"
             android:text="5" />
 
         <Button
@@ -102,7 +102,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
             android:background="@color/black"
-            android:onClick="base6"
+            android:onClick="DigitPress"
             android:text="6" />
 
         <Button
@@ -111,7 +111,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:background="@color/black"
-            android:onClick="base7"
+            android:onClick="DigitPress"
             android:text="7" />
 
         <Button
@@ -120,7 +120,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:background="@color/black"
-            android:onClick="base8"
+            android:onClick="DigitPress"
             android:text="8" />
 
         <Button
@@ -129,7 +129,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:background="@color/black"
-            android:onClick="base9"
+            android:onClick="DigitPress"
             android:text="9" />
 
         <Button
@@ -144,7 +144,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/black"
-            android:onClick="base16"
+            android:onClick="DigitPress"
             android:text="16" />
 
         <Button
